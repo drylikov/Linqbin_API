@@ -9,6 +9,8 @@ Linqbin API designed to serve as a temporary and encrypted link shortening/paste
 
 ## Installation and Usage
 
+
+
 ### Development
 
 1. Clone the repository.

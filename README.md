@@ -33,4 +33,3 @@ Linqbin utilizes the following configuration files:
 
 Contributions are welcome! Feel free to submit issues or pull requests.
 
-## License

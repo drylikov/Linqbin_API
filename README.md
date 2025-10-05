@@ -17,6 +17,8 @@ Linqbin API designed to serve as a temporary and encrypted link shortening/paste
 2. Run `bun install` to install dependencies.
 3. Use `bun dev` to start the development server.
 
+
+
 ### Building
 
 1. Execute `bun build` to build the project.

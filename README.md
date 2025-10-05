@@ -24,6 +24,8 @@ Linqbin API designed to serve as a temporary and encrypted link shortening/paste
 1. Execute `bun build` to build the project.
 2. Preview the build with `bun preview`.
 
+
+
 ### Code Quality
 
 - Run `bun lint` to check code style and formatting.

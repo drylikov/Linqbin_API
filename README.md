@@ -5,6 +5,8 @@
 
 Linqbin API designed to serve as a temporary and encrypted link shortening/pastebin service.
 
+
+
 ## Installation and Usage
 
 ### Development

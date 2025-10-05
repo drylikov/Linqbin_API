@@ -1,0 +1,21 @@
+
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1705818241131,
+      "tag": "0000_lively_franklin_richards",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1707752205854,
+      "tag": "0001_outgoing_sphinx",
+      "breakpoints": true
+    }
+  ]
+}

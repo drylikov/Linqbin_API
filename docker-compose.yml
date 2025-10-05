@@ -1,0 +1,37 @@
+
+version: '3'
+services:
+  app:
+    image: linqbin/linqbin-api:latest
+    container_name: api
+    env_file:
+      - .env
+    environment:
+      PORT: ${PORT}
+      DB_PG_URL: ${DB_PG_URL}
+      DB_PG_USER: ${DB_PG_USER}
+      DB_PG_PASSWORD: ${DB_PG_PASSWORD}
+    ports:
+      - '${PORT}:${PORT}'
+    depends_on:
+      - postgres
+    command: 'sh ./migrate-and-start.sh'
+    networks:
+      - linqbin-net
+
+  postgres:
+    image: postgres
+    env_file:
+      - .env
+    environment:
+      POSTGRES_USER: ${DB_PG_USER}
+      POSTGRES_PASSWORD: ${DB_PG_PASSWORD}
+      POSTGRES_DB: linqbin
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+    networks:
+      - linqbin-net
+
+networks:
+  linqbin-net:
+    driver: bridge

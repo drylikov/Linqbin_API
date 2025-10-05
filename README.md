@@ -31,6 +31,8 @@ Linqbin API designed to serve as a temporary and encrypted link shortening/paste
 - Run `bun lint` to check code style and formatting.
 - Use `bun format` to auto-format code.
 
+
+
 ## Configuration
 
 Linqbin utilizes the following configuration files:
